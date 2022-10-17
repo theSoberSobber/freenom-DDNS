@@ -1,7 +1,7 @@
 We'll be using crontab to schedule the script to run every minute. <br />
 
 # Script (checkAndUpdate)
-- get current ip from ipapi.co/json
+- get current ip from https://checkip.amazonaws.com/
 - check the log file for last recorded IP
   - same
     - do nothing

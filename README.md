@@ -8,6 +8,7 @@
 ### Important Note -
 - Since the minimum TTL for freenom is 300 (5 minutes) the worst case scenario for your website would be (yourUpdateTime+ 5 minutes)
 - i.e. say you run the script every 5 seconds, your worst case down time is 5.083 minutes
+- If you own an actual TLD (which is compatible with whoIs) then please just use cloudlflare, it has a minimum TTL of 60 seconds for non-enterprise connections and 30 for otherwise!
 
 ---
 ### Setup

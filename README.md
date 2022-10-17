@@ -5,6 +5,11 @@
 
 ---
 
+### Important Note -
+- Since the minimum TTL for freenom is 300 (5 minutes) the worst case scenario for your website would be (yourUpdateTime+ 5 minutes)
+- i.e. say you run the script every 5 seconds, your worst case down time is 5.083 minutes
+
+---
 ### Setup
 - Setup port-forwarding and local static IP Allocation on your router
 - Point 80 and 443 to your severs local IP (192.168.1.X) (and 22 or 23 if you need ssh or telnet respectibely)

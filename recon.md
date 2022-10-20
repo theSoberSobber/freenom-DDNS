@@ -41,6 +41,7 @@ curl 'https://my.freenom.com/clientarea.php?action=domaindetails&id=<uniqueDomai
 curl 'https://my.freenom.com/clientarea.php?managedns=<your freenom gTLD without http/https >&domainid=<uniqueDomainId>' -H 'authority: my.freenom.com' -H 'cookie: <cookies here> [200, GET]
   
   ### NOTE - 
+ 
     - Please ensure that your domain is using the default freenom name servers before trying to use Freenom DNS
     - You can change the default name servers by performing a POST request before trying to use Freeenom DNS
     - curl 'https://my.freenom.com/clientarea.php?action=domaindetails' -H 'authority: my.freenom.com' -H 'accept:                      text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' -H 'cookie: <cookies here> --data-raw 'token=<some token here>&id=<yourDomainId here>&sub=savens&nschoice=default&ns1=&ns2=&ns3=&ns4=&ns5=' [200, POST]

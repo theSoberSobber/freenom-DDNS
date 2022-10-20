@@ -1,9 +1,9 @@
-###  Useful Endpoints
-BASE_URL = "https://my.freenom.com"
-clientArea ="/clientarea.php"
-login_url ="/dologin.php"
-dns_manage_url ="/clientArea?managedns=$freenom_domain_name&domainid=$freenom_domain_id"
-logout_url ="/logout.php"
+# Useful Endpoints
+BASE_URL = "https://my.freenom.com" <br />
+clientArea ="/clientarea.php" <br />
+login_url ="/dologin.php" <br />
+dns_manage_url ="/clientArea?managedns=$freenom_domain_name&domainid=$freenom_domain_id" <br />
+logout_url ="/logout.php" <br />
 
 ---
 
